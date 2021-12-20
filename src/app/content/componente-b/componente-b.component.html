@@ -1,0 +1,16 @@
+<mat-card>
+  <div fxLayout="row wrap" fxLayout.xs="column" fxFlex="100" class="pd">
+    <div  fxFlex="30" fxFlex.xs="100" fxFlex.sm="20" fxLayout="column" fxLayoutAlign="center center" fxFlexFill>
+        <div class="round" fxLayout="column" fxLayoutAlign="center center">
+            <p class="round-text" fxLayoutAlign="center center">PK ?</p>
+        </div>
+    </div>
+    <div fxFlex="70"  fxFlex.xs="100" fxFlex.sm="75" fxLayout="column" class="pl-20" fxLayoutAlign="start start" >
+        <span class="mat-title"><b>{{this.pokemonDetail.name}} </b></span>
+        <span class="mat-body-1"><mat-icon>fingerprint</mat-icon> ID: {{this.pokemonDetail.id}}</span>
+        <span class="mat-body-1"><mat-icon>trending_up</mat-icon> Experiencia: {{this.pokemonDetail.base_experience}}</span>
+        <span class="mat-body-1"><mat-icon>height</mat-icon> Altura: {{this.pokemonDetail.height}}</span>
+        <span class="mat-body-1"><mat-icon>monitor_weight</mat-icon> Peso: {{this.pokemonDetail.weight}}</span>
+    </div>
+</div>
+</mat-card>
